@@ -9,7 +9,7 @@
 
 *A collaborative content-based recommendation system powered by audio feature analysis*
 
-**A team project by 4 Computer Science & Engineering students**
+**A collaborative student project**
 
 </div>
 
@@ -17,39 +17,69 @@
 
 ## 📋 Overview
 
-This project implements a **content-based recommendation system** that analyzes Spotify's audio features to suggest similar songs. Developed as a collaborative effort by a team of 4 students, the system processes over **114,000 tracks** and uses Euclidean distance calculations to deliver personalized music recommendations.
+This project implements a **content-based recommendation system** that analyzes Spotify's audio features to suggest similar songs. Developed as a collaborative student effort, the system processes over **114,000 tracks** and uses Euclidean distance calculations to deliver personalized music recommendations.
 
 ---
 
 ## 🎯 Key Highlights
 
 - 🔍 **Large-Scale Data Processing**: Cleaned and analyzed 114,000+ tracks
-- 🎼 **Custom Algorithm**: Implemented recommendation engine using Euclidean distance metrics
+- 🎼 **Custom Algorithm**: Designed and implemented recommendation engine using Euclidean distance
 - 🇹🇷 **Turkish Music Detection**: Specialized identification system for Turkish music
 - 📊 **Exploratory Data Analysis**: Deep analysis of energy, tempo, and audio trends
-- 👥 **Collaborative Development**: Built by 4-person student team
+- 👥 **Collaborative Development**: Balanced team effort across research and engineering
 - ⚡ **Efficient Pipeline**: Optimized data processing with Pandas and NumPy
 
 ---
 
-## 👥 Team & Contributions
+## 👥 Project Development
 
-This project was developed collaboratively by a 4-person team of engineering students.
+This project was developed through collaborative student effort with balanced responsibilities across research, algorithm design, and engineering implementation.
 
-### Project Lead & Primary Contributions
-**Mehmet Aydoğan** - *Lead Data Researcher & Analyst*
-- Led data cleaning and preprocessing pipeline (114K+ tracks)
-- Implemented Euclidean distance recommendation algorithm
-- Developed Turkish music identification system
-- Conducted exploratory data analysis and visualization
-- Project documentation and repository management
+### My Role: Lead Data Researcher & Algorithm Designer
 
-### Team Collaboration
-The project benefited from collaborative efforts in:
-- Dataset research and acquisition
-- Feature engineering and selection
-- Algorithm testing and validation
-- Code review and optimization
+**Research & Design Leadership:**
+- **Led exploratory data analysis** across 114K+ track dataset
+- **Designed recommendation algorithm** using Euclidean distance methodology
+- **Coordinated feature selection strategy** and evaluation approach
+- Developed Turkish music pattern identification system
+- Evaluated and selected similarity metrics
+
+**Collaborative Contributions:**
+- Worked with team on algorithm implementation and optimization
+- Contributed to data preprocessing pipeline
+- Participated in code reviews and testing
+- Co-authored project documentation
+
+### Team Development & Implementation
+
+The project's success relied heavily on collaborative engineering and implementation work:
+
+**Data Engineering Pipeline (Team-Led):**
+- **Built large-scale data cleaning infrastructure** for 114K+ tracks
+- **Implemented automated preprocessing systems** and validation checks
+- **Developed missing value handling strategies** and outlier detection algorithms
+- Created data quality assurance and monitoring systems
+
+**Algorithm Implementation & Optimization (Team-Led):**
+- **Coded core recommendation engine** with Euclidean distance calculations
+- **Optimized computational performance** using NumPy vectorization
+- **Integrated SciPy libraries** for efficient distance computations
+- Implemented recommendation ranking and filtering systems
+
+**Feature Engineering (Collaborative):**
+- **Built feature normalization pipeline** (0-1 scaling)
+- Conducted feature correlation analysis and selection
+- Developed composite feature metrics
+- Tested and validated feature importance
+
+**System Integration & Testing (Team-Led):**
+- **Developed end-to-end recommendation pipeline**
+- Built testing framework and quality validation
+- Implemented edge case handling and error management
+- Managed repository organization and code documentation
+
+**Note:** This was a truly collaborative project with overlapping responsibilities. While I led the research and algorithm design aspects, the team led the engineering implementation and system development. We worked together across all phases with frequent collaboration and code reviews.
 
 ---
 
@@ -109,10 +139,10 @@ The recommendation engine measures similarity between songs using **Euclidean di
 distance = sqrt(Σ(feature_i_song1 - feature_i_song2)²)
 ```
 
-**Implementation Details:**
-- Calculated distances across 8-10 key audio features
-- Normalized all features to 0-1 range before calculation
-- Used NumPy vectorization for efficient computation on 114K tracks
+**Algorithm Design:**
+- Selected 8-10 key audio features for distance calculation
+- Normalized all features to 0-1 range for fair comparison
+- Implemented using NumPy vectorization for 114K track dataset
 - Leveraged scipy.spatial.distance for optimized calculations
 
 **Why Euclidean Distance?**
@@ -122,8 +152,9 @@ distance = sqrt(Σ(feature_i_song1 - feature_i_song2)²)
 - ✅ Captures overall similarity across multiple dimensions
 - ✅ Proven effectiveness in content-based filtering
 
-**Alternative Considered:**
-- Cosine Similarity was evaluated but Euclidean distance performed better for our normalized multi-feature dataset
+**Alternative Metrics Evaluated:**
+- Cosine Similarity was considered but Euclidean distance performed better for our normalized multi-feature dataset
+- Manhattan Distance was also evaluated
 
 ### Recommendation Process
 
@@ -152,17 +183,17 @@ This collaborative project successfully demonstrates content-based filtering on 
 - Balanced representation across multiple genres
 
 **Turkish Music Characteristics**
-- Successfully identified Turkish tracks using metadata
+- Successfully identified Turkish tracks using metadata analysis
 - Distinct audio patterns observed in Turkish music
 - Enables culture-specific recommendations
 
 ### Project Outcomes
 
 ✅ **Data Processing**: Successfully cleaned and processed 114,000+ tracks  
-✅ **Algorithm Implementation**: Built custom Euclidean distance recommendation engine  
+✅ **Algorithm Design & Implementation**: Designed and built Euclidean distance recommendation engine  
 ✅ **Feature Analysis**: Comprehensive EDA revealing audio patterns and trends  
 ✅ **Turkish Music Detection**: Specialized system for identifying Turkish tracks  
-✅ **Team Collaboration**: Successfully coordinated 4-person development team
+✅ **Collaborative Success**: Effective teamwork balancing research, design, and engineering
 
 ---
 
@@ -229,22 +260,24 @@ Spotify-Recommendation-System/
 
 ## 🎓 Learning Outcomes
 
-Through this collaborative project, the team gained experience in:
+Through this collaborative project, I gained experience in:
 
-- **Team Collaboration**: Coordinating a 4-person engineering team
-- **Data Engineering**: Processing 114K+ records with Pandas
-- **Algorithm Design**: Implementing Euclidean distance-based recommendation system
+- **Research Leadership**: Led exploratory data analysis and algorithm research
+- **Algorithm Design**: Designed Euclidean distance-based recommendation methodology
+- **Data Analysis**: Conducted comprehensive analysis on 114K+ records
+- **Team Collaboration**: Worked effectively with team on implementation and engineering
 - **Python Programming**: Advanced data manipulation and scientific computing
-- **Data Analysis**: Exploratory analysis and statistical visualization
-- **Problem Solving**: Handling missing data, outliers, and performance optimization
+- **Problem Solving**: Addressed data quality and performance challenges
 
-### Personal Contributions (Lead Role)
-As Lead Data Researcher & Analyst, I specifically:
-- Architected the data cleaning pipeline for 114K+ tracks
-- Implemented the core Euclidean distance algorithm using NumPy/SciPy
-- Developed the Turkish music identification system
-- Led exploratory data analysis and visualization efforts
-- Managed project documentation and GitHub repository
+### Personal Contributions Summary
+As Lead Data Researcher & Algorithm Designer, I:
+- Led the exploratory data analysis effort
+- Designed the Euclidean distance recommendation algorithm
+- Coordinated feature selection and evaluation strategy
+- Developed Turkish music identification methodology
+- Collaborated with team on implementation, optimization, and testing
+
+The engineering implementation, data pipeline development, and system integration were led by team members, demonstrating strong collaborative development throughout the project.
 
 ---
 
@@ -254,7 +287,7 @@ As Lead Data Researcher & Analyst, I specifically:
 - [ ] Add web interface using Streamlit or Flask
 - [ ] Integrate Spotify API for real-time data
 - [ ] Experiment with machine learning models (K-NN, Neural Networks)
-- [ ] Compare Euclidean distance with Cosine Similarity
+- [ ] Compare multiple distance metrics (Cosine, Manhattan, Minkowski)
 - [ ] Deploy as REST API
 
 ---
@@ -278,7 +311,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Project Lead
 
-**Mehmet Aydoğan** - *Lead Data Researcher & Analyst*
+**Mehmet Aydoğan** - *Lead Data Researcher & Algorithm Designer*
 
 🎓 Electrical & Electronics Engineering Student @ İzmir Democracy University  
 🔗 LinkedIn: [linkedin.com/in/mehmet-aydoganEE](https://linkedin.com/in/mehmet-aydoganEE)  
@@ -289,7 +322,7 @@ This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Collaborative team of 4 engineering students
+- Collaborative student development team for engineering implementation and system development
 - Spotify for providing comprehensive audio feature data
 - İzmir Democracy University for academic support
 - The open-source community for tools and inspiration
